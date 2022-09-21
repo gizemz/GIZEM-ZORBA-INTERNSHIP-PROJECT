@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&display=swap');
+body{
+    background-image: url(../raw/background.jpg);
+    background-size: cover;
+}
+.content{
+    height: 3000px;
+    /* background: linear-gradient(45deg, #757f9a, #d7dde8); */
+  }
+  
+.App{
+   /* background-color: rgb(0, 0, 0, 0.4); */
+   
+    
+}
+.App > .container{
+    display: flex;
+    align-items: center!important;
+}
+.hName{
+    margin-left: 5px;
+    color: #BE913F;
+    font-family: 'Arima Madurai', cursive;
+    
+}
+.footerText{
+    color: #BE913F;
+    font-family: 'Arima Madurai', cursive;
+}
+.navbarYazi{
+    padding-top: 5px!important;
+}
+
+.navbarBtn{
+    width: 75px;
+    height: 50px;
+    
+}
+.mText{
+    margin-left: 2px;
+    font-size: x-small!important;
+}
+.TeamsBorder{
+    background-color: rgba(0,0, 0, 0)!important;
+    border: none!important;
+    color: white!important;
+}
+.teamsHeader{
+    color: black!important;
+}
+.card{
+    border-radius: 20px!important;
+}
+.coloring{
+    display: flex;
+    justify-content: end;
+    padding: 200px;
+    color: rgba(255, 255, 255, 0.879);
+    align-self: flex-end;    
+    border-block-width: 200px;
+    
+}
+.direction{
+    display : flex;
+    flex-direction : row;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+    justify-content : "center"!important;
+}
+
+.inter{
+    font-family: 'Inter', sans-serif;
+}
+.img-fluid{
+    width: 20%!important;
+}
+.coloring :hover{
+
+    background: #4c4494d1;
+    border-radius: 20px;
+    transition: 0.4s;
+    box-shadow: 0px 0px 30px 8px #4c44949e;
+}
+.ServicesIcon{
+    color: rgb(153, 153, 255);
+}
+.newsP{
+    width: 28em!important;
+    height: 16em!important;
+}
+.footerLogo{
+    width: 12em!important;
+}
+.ServicesBox{
+    width: 11em!important;
+    height: 9em!important;
+}
+.sBTitle{
+    padding-top: 7px!important;
+}
+.mmBtn:hover, .mmBtn:active, .mmBtn:link, .mmBtn:visited, .btn-outline-success {
+    background-color: #D58EB8!important;
+    border-color: #D58EB8!important;
+    transition: 0.6s;
+    --bs-btn-focus-shadow-rgb:#D58EB8!important;
+}
+.mmBtn{
+    border: 0px!important;
+}
+.navbarText{
+    font-size: 1.4em!important;
+    margin-left: 5px;
+    border-radius: 20px;
+    
+}
+.navbarText:hover{
+    background-color: rgba(155, 93, 141, 0.377);
+    transition: 0.6s;
+    box-shadow: 0px 0px 10px 5px #D58EB8;
+    
+}
+.nbBg{
+    background-color: #F6F4FC!important;
+}
+.otCard{
+    background-color: rgba(255, 255, 255, 0.6)!important;
+   
+}
+
+.nav-link{
+    color:black!important;
+}

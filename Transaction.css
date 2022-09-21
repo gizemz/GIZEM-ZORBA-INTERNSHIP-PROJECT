@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&display=swap');
+.bodyTransaction{
+    background-image: url(../raw/background.jpg);
+    background-size: cover;
+
+    height: 100vh;
+}
+.greenButton{
+    color: green;
+    font-size: 2em;
+}
+.redButton{
+    font-size: 2em;
+    color: red;
+}
+.transactionTable{
+border-radius: 20px;
+background: rgba(255, 255, 255, 0.15);
+box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+backdrop-filter: blur(7px);
+-webkit-backdrop-filter: blur(7px);
+border-radius: 10px;
+border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.text{
+    font-weight: 700;
+}
+.icons{
+    margin-left: 10px!important;
+}
